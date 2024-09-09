@@ -1,0 +1,129 @@
+.blog_content{
+    background: linen;
+  }
+  
+  .blog_content-box{
+     background-color: rgba(252, 246, 244, 0.8);
+     width: 100%;
+     height: auto;
+     position: relative;
+     padding-bottom: 5rem;
+  }
+  
+  
+  
+  .nav_btn {
+     position: fixed;
+     top: 2rem;
+     left: 50%;
+     transform: translate(-50%, 0px);
+     background-color: rgb(252, 246, 244);
+     padding: 0.3rem;
+     border-radius: 50%;
+     border: 1px solid black;
+     width: 2.5rem;
+     height: 2.5rem;
+     display: flex;
+     -webkit-box-pack: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     align-items: center;
+     z-index: 9999999;
+     cursor: pointer;
+  }
+  
+  .social_link-group {
+     display: flex;
+     flex-direction: column;
+     -webkit-box-align: center;
+     align-items: center;
+     position: fixed;
+     bottom: 0px;
+     left: 2rem;
+     z-index: 3;
+  }
+  
+  .social_link-group .social_link {
+     transform: none;
+  }
+  
+  .social_link-group .social_link a {
+     color: inherit;
+     background-color: transparent;
+  }
+  
+  .nav_line {
+    width: 2px;
+    background-color: black !important;
+    height: 8rem;
+  }
+  
+  .blog-shadow {
+    position: fixed;
+    top: 5rem;
+    left: 5rem;
+    color: rgba(0, 0, 0, 0.2);
+    font-size: calc(5rem + 5vw);
+    z-index: 0;
+  }
+  
+  .blog-right{
+    position: relative;
+  }
+  
+  .blog-right-one{
+    position: absolute;
+    top: 0px;
+    right: 2rem;
+  }
+  
+  .blog_box-square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 9rem; 
+  }
+  
+  .blog-square {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 2rem; 
+    justify-items: center; 
+  }
+  
+  .blog-square-16 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    width: 20rem; 
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 12rem; 
+    cursor: pointer;
+  }
+  
+  .blog-square-img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+  
+  .blog-square-title {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .clicked .image-container {
+    background-color: black;
+  }
+  
+  /* Make the layout responsive */
+  @media (max-width: 768px) {
+    .blog-square {
+      grid-template-columns: 1fr; 
+    }
+  }
