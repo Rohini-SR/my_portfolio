@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div className="project_content">
       <h1 color="dark" className="logo">
-        Mern Stack
+        MERN Stack
       </h1>
       <button className="nav_btn">
         <a href="/" className="active">

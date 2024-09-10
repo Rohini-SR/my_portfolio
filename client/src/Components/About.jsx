@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import me from '../assets/me2.jfif'
+import me from '../assets/me1.webp'
 import { VscArrowLeft } from 'react-icons/vsc';
 import { FaGithub, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
 
@@ -8,7 +8,7 @@ import { FaGithub, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
 const About = () => {
   return (
     <div className='about_content'>
-        <h1 color="light" className="logo">Mern Stack</h1>
+        <h1 color="light" className="logo">MERN</h1>
         <button className="nav_btn">
           <a href="/" className="active">
             <VscArrowLeft size={30} />

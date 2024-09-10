@@ -15,7 +15,7 @@ a{
 }
 .logo {
     display: inline-block;
-    color: rgb(0, 0, 0);
+    color: black !important;
     font-family: Pacifico, cursive;
     position: fixed;
     left: 2rem;
@@ -156,7 +156,7 @@ a{
 .nav_project{
     color: rgb(0, 0, 0);
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: calc(1rem + 2vw);
     transform: translate(-50%, -50%) rotate(-90deg);
     z-index: 1;
@@ -165,22 +165,6 @@ a{
 
 .nav_project h2{
     transform: none;
-    display: inline-block;
-    font-weight: 500;
-}
-
-.nav_resume{
-    color: rgb(0, 0, 0);
-    position: absolute;
-    top: 25%;
-    left: calc(1rem + 2vw);
-    transform: translate(-50%, -50%) rotate(-90deg);
-    z-index: 1;
-    text-decoration: none;
-}
-
-.nav_resume h2{
-    text-transform: none;
     display: inline-block;
     font-weight: 500;
 }

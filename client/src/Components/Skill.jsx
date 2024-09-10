@@ -7,7 +7,7 @@ const Skill = () => {
   return (
     <div className="skill_content">
       <h1 color="light" className="logo">
-        Mern Stack
+        MERN
       </h1>
       <button className="nav_btn">
         <a href="/" className="active">
@@ -68,6 +68,13 @@ const Skill = () => {
         <div className="skill_box-subtitle">
           <strong>Skills</strong> <br />
           <p>NodeJS, ExpressJS</p>
+        </div>
+        <div class="skill_box-subtitle skill_box-ul">
+          <strong>Tools</strong> <br />
+          <ul>
+            <li>VS code</li>
+            <li>Github</li>
+          </ul>
         </div>
       </div>
       <h1 class="skill_box-shadow">Skills</h1>

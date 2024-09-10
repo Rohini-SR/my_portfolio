@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './portfolio.css';
-import Profile from './Profile'; 
+import Profile from '../Components/Profile'; 
 import { VscArrowLeft } from 'react-icons/vsc';
 import { FaGithub, FaLinkedin, FaFacebook, FaYoutube } from 'react-icons/fa';
 
@@ -19,10 +19,10 @@ const Portfolio = () => {
     <>
       <div className={`black ${isMoved ? 'fade-out' : ''}`}></div>
       <div className={`white ${isMoved ? 'fade-out' : ''}`}>
-        <h1 color="light" className="logo">Mern</h1>
+        <h1 color="light" className="logo">MERN</h1>
         <button className="nav_btn">
           <a href="/" className="active">
-            <VscArrowLeft size={30} />
+            <VscArrowLeft size={25} />
           </a>
         </button>
         <div className="social_link-group">
@@ -65,9 +65,6 @@ const Portfolio = () => {
         </a>
         <a href="/project" className="nav_project">
           <h2>Projects</h2>
-        </a>
-        <a href="/resume" className="nav_resume">
-          <h2>Resume</h2>
         </a>
         <div className="nav_bottom">
           <a href="/about" className="nav_about">
