@@ -6,9 +6,9 @@ import {FaGithub, FaLinkedin, FaFacebook, FaYoutube} from "react-icons/fa";
 const Skill = () => {
   return (
     <div className="skill_content">
-      <h1 color="light" className="logo">
+      <h2 color="light" className="logo">
         MERN
-      </h1>
+      </h2>
       <button className="nav_btn">
         <a href="/" className="active">
           <VscArrowLeft size={30} />

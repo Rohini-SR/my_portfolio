@@ -42,7 +42,7 @@ const Blog = () => {
   return (
     <div className="blog_content">
       <div className="blog_content-box">
-        <h1 className="logo">Mern Stack</h1>
+        <h1 className="logo">Mern</h1>
         <button className="nav_btn">
           <a href="/" className="active">
             <VscArrowLeft size={30} />
@@ -57,6 +57,11 @@ const Blog = () => {
           <div className="social_link">
             <a href="#" target="_blank" style={{ color: "inherit" }}>
               <FaGithub size={25} fill="#000000" />
+            </a>
+          </div>
+          <div className="social_link">
+            <a href="#" target="_blank" style={{ color: "inherit" }}>
+              <FaTwitter size={25} fill="#000000" />
             </a>
           </div>
           <div className="social_link">

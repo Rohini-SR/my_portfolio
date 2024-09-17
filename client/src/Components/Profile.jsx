@@ -1,5 +1,5 @@
 import React from "react";
-import "./Profile.css";
+import "./profile.css";
 import me from "../assets/me2.jfif";
 
 const Profile = () => {
@@ -10,8 +10,7 @@ const Profile = () => {
           <h1> Hi, </h1>
           <h3> I'm Rohini </h3>
           <h6>
-            {" "}
-            Enthusiastic entry-level MERN stack developer with a passion for building dynamic web applications and a strong foundation in MongoDB, Express.js, React, and Node.js.{" "}
+            Enthusiastic entry-level MERN stack developer with a passion for building dynamic web applications and a strong foundation in MongoDB, Express.js, React, and Node.js.
           </h6>
         </div>
       </div>

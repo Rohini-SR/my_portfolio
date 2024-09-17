@@ -40,13 +40,19 @@
     cursor: crosshair;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+
 }
 .profile_intro h1{
     font-size: 2rem;
+    margin: 0;
 }
 .profile_intro h3{
     display: inline-block;
+    margin: 0;
+}
+.profile_intro h6{
+    margin: 0;
 }
 .profile_white {
     width: 50%;
